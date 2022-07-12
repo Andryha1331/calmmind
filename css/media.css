@@ -4,7 +4,14 @@
 }
 /* Extra large */
 @media screen and (max-width: 1200px) {
+    .hero__image {
+        width: 450px;
+        
+    }
     
+    .header {
+        margin-bottom: 50px;
+    }
 }
 
 /* Large */
@@ -23,6 +30,23 @@
 
     .nav-wrapper-mobile {
         display: block;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero-title {
+        text-align: center;
+    
+    }
+
+    .mobile-stores {
+        justify-content: center;
+    }
+
+    .header {
+        margin-bottom: 0px;
     }
 }
 
