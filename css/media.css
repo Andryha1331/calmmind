@@ -20,6 +20,20 @@
         margin-left: 15px;
         margin-right: 15px;
     }
+
+    .guide-info {
+        margin-left: 50px;
+    }
+
+    .guide {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .people {
+        background-image: url(../images/people-tablet.png);
+    }
+
 }
 
 /* Medium */
@@ -34,6 +48,8 @@
 
     .hero {
         flex-direction: column-reverse;
+
+        padding-bottom: 120px;
     }
 
     .hero-title {
@@ -48,9 +64,41 @@
     .header {
         margin-bottom: 0px;
     }
+
+    .guide {
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    .guide__image {
+        max-height: 500px;
+        position: relative;
+        top: -180px;
+    }
+
+    .guide-info {
+        margin-left: 0;
+
+        position: relative;
+        top: -60px;
+    }
 }
 
 /* small */
 @media screen and (max-width: 576px) {
-    
+    .guide-info {
+        margin: 0 15px;
+    }
+
+    .hero {
+        padding-bottom: 150px;
+    }
+
+    .people {
+        background-image: url(../images/people-mobile.png);
+    }
+
+    .wrapper {
+        padding-bottom: 116px;
+    }
 }

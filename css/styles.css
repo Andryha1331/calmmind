@@ -36,6 +36,8 @@ html, body {
     overflow-x: hidden;
 
     background-color: #FFBAA1;
+
+    padding-bottom: 350px;
 }
 
 p, h1, h2, h3 {
@@ -127,6 +129,7 @@ p, h1, h2, h3 {
     align-items: center;
 
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .hero-title {
@@ -150,6 +153,78 @@ p, h1, h2, h3 {
 
 .hero__store {
     flex-basis: 400px;  
+}
+
+.guide {
+    padding-top: 110px ;
+    display: flex;
+    background-color: white;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.guide-info {
+    max-width: 440px;
+
+    margin-left: 150px;
+}
+
+.guide-info__title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 57px;
+
+    color: #000000;
+
+    margin-bottom: 20px;
+}
+
+.guide-info__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 39px;
+
+    margin-bottom: 35px;
+}
+
+.guide-info__link {
+    display: block;
+    text-align: center;
+    padding: 17px 0;
+
+    background: #110ACD;
+    border-radius: 4px;
+
+    width: 100%;
+    
+    color: white;
+    text-decoration: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    position: relative;
+}
+
+.guide-info__link::before {
+    display: block;
+    content: '\25B2';
+
+    transform: translateY(-50%) rotate(90deg);
+    font-size: 50px;
+
+    position: absolute;
+    top: 50%;
+    left: 30px;
+
 }
 
 .reviews {
@@ -205,6 +280,7 @@ p, h1, h2, h3 {
 .swiper-button-next::after {
     content: '';
     width: 24px;
+
     height: 24px;
 
     background-image: url(../images/right-arrow.svg);
@@ -216,6 +292,19 @@ p, h1, h2, h3 {
     height: 24px;
 
     background-image: url(../images/left-arrow.svg);
+}
+
+.people {
+    min-height: 325px;
+    background-image: url(../images/people-desktop.png);
+    background-color: white;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: contain;
+
+    padding-bottom: ;
 }
 
 
